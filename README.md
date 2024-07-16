@@ -359,13 +359,13 @@ Install `oxi`:
 - set default replace command to `"oxi"` on `setup()`
 
 ```lua
-require('spectre').setup({
-    default = {
-        replace = {
-            cmd = "oxi"
-       }
-    }
-  )
+require("spectre").setup({
+  default = {
+    replace = {
+      cmd = "oxi",
+    },
+  },
+})
 ```
 
 ## Sponsors
